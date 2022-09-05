@@ -1,0 +1,25 @@
+----------------------------------------------------------
+1. ACESSE O TERMINAL VIA SSH E COLE AS LINHAS ABAIXO:
+----------------------------------------------------------
+dnf -y install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
+percona-release setup ps80 -y
+dnf -y module disable mysql
+dnf -y install percona-server-server percona-toolkit
+percona-release enable-only tools release
+dnf -y install percona-xtrabackup-80
+systemctl enable --now mysqld 
+systemctl start mysqld 
+systemctl status mysqld
+grep "temporary password" /var/log/mysqld.log
+
+----------------------------------------------------------
+2. AO TERMINAR A INSTALAÇÃO ACESSE O MYSQL
+----------------------------------------------------------
+mysql -uroot -p      # AO PEDIR A SENHA COPIE DO ÚLTIMO COMANDO ACIMA
+
+----------------------------------------------------------
+3. RECOMENDAMOS RODAR O COMANDO ABAIXO PARA REFORÇAR A SEGURANÇA
+----------------------------------------------------------
+mysql_secure_installation 
+
+
