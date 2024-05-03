@@ -26,8 +26,7 @@ mysql_secure_installation
 ----------------------------------------------------------
 RHEL 9 - MYSQL 8
 
-wget https://repo.mysql.com//mysql80-community-release-el9-1.noarch.rpm
-dnf install mysql80-community-release-el9-1.noarch.rpm
+dnf install https://repo.mysql.com/mysql80-community-release-el9.rpm
 dnf install mysql-community-server
 systemctl start mysqld
 systemctl enable mysqld
