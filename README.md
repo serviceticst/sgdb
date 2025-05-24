@@ -5,7 +5,7 @@
 
 
 ### 📋 Lista de Scripts
-- 📥 [Instalação automatizada do MySQL 8 no Oracle Linux 8](https://github.com/serviceticst/grafana/releases/tag/1.0.0)
+- 📥 [Instalação do MySQL 8 no Oracle Linux 8](https://github.com/serviceticst/sgdb/releases/tag/1.0.0)
 
 ***
 
@@ -15,7 +15,7 @@
 
 ### 📋 Scripts List
 
-- 📥 [Automated  MySQL 8 Installation on Oracle Linux 8](https://github.com/serviceticst/grafana/releases/tag/1.0.0)
+- 📥 [MySQL 8 Installation on Oracle Linux 8](https://github.com/serviceticst/sgdb/releases/tag/1.0.0)
 
 ***
 ### Desenvolvido por: Service TIC Soluções Tecnológicas (Developed by: Service TIC Technological Solutions)
