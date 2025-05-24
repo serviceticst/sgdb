@@ -7,7 +7,7 @@
 ### 📋 Lista de Scripts
 - 📥 [Instalação do MySQL 8 no Oracle Linux 8](https://github.com/serviceticst/sgdb/releases/tag/1.0.0)
 - 📥 [Instalação do MySQL 8 no Oracle Linux 9](https://github.com/serviceticst/sgdb/releases/tag/1.1.0)
-- 📥 [Instalação do Percona Server 8 no Oracle Linux 9](https://github.com/serviceticst/sgdb/releases/tag/2.0.0)
+- 📥 [Instalação do Percona Server 8 no Oracle Linux 8/9](https://github.com/serviceticst/sgdb/releases/tag/2.0.0)
 
 ***
 
@@ -19,7 +19,7 @@
 
 - 📥 [MySQL 8 Installation on Oracle Linux 8](https://github.com/serviceticst/sgdb/releases/tag/1.0.0)
 - 📥 [MySQL 8 Installation on Oracle Linux 9](https://github.com/serviceticst/sgdb/releases/tag/1.1.0)
-- 📥 [Percona Server 8 Installation on Oracle Linux 9](https://github.com/serviceticst/sgdb/releases/tag/2.0.0)
+- 📥 [Percona Server 8 Installation on Oracle Linux 8/9](https://github.com/serviceticst/sgdb/releases/tag/2.0.0)
 
 
 ***
